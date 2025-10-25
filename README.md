@@ -29,22 +29,22 @@ Users can input a news article, and the trained model predicts whether it is aut
 
 ## 🚀 How to Run Locally
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/sirisha-s21/News-Article-Classification.git
 cd News_Article_Classifier
-
-### 2️⃣ Install dependencies
+```
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-### 3️⃣ Merge the dataset
+3️⃣ Merge the dataset
 python merge_dataset.py
 Creates data/news_dataset.csv ready for training.
 
-### 4️⃣ Train the models
+4️⃣ Train the models
 python train.py --data data/news_dataset.csv
 Generates model_lr.joblib and model_nb.joblib.
 
-### 5️⃣ Run the Streamlit app
+5️⃣ Run the Streamlit app
 streamlit run app.py
 Open the local browser page and enter news articles to get predictions.
