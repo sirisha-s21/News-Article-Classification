@@ -88,8 +88,8 @@ except:
 
 st.markdown("### Choose Model")
 model_choice = st.selectbox(
-    "",
-    ["LogisticRegression (LR)", "MultinomialNB (NB)"],
+    label="Choose a classification model", 
+    options=["Logistic Regression", "Multinomial NB"],
     label_visibility="collapsed"
 )
 
