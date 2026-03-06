@@ -1,29 +1,52 @@
-# 📰 News Article Classification (Fake/Real)  
+# 📰 News Article Classification (Fake / Real)
 
 ## 🎯 Objective
-Classify news articles as **fake** or **real** using **Natural Language Processing (NLP)**.  
-Users can input a news article, and the trained model predicts whether it is authentic or not.  
+This project uses **Natural Language Processing (NLP)** to classify news articles as **Fake** or **Real**.
+
+Users can enter a news article, and the trained machine learning model predicts whether the article is authentic or not.
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Try the deployed app:**  
+👉 https://news-article-classification.streamlit.app/
+---
+
 ## ✨ Key Features
-- 🧹 **Text Preprocessing** using NLTK (tokenization, stopwords removal, lemmatization)  
+
+- 🧹 **Text Preprocessing** using NLTK  
+  - Tokenization  
+  - Stopwords removal  
+  - Lemmatization  
+
 - 🔢 **TF-IDF Vectorization** for feature extraction  
-- 🤖 **Model Training** with Logistic Regression and Naive Bayes  
-- 📊 **Evaluation Metrics**: Accuracy, F1-score, Precision, Recall  
-- 💻 **Interactive Demo** with Streamlit  
-- 🗂️ **Modular Project Structure** for easy understanding  
+
+- 🤖 **Machine Learning Models**
+  - Logistic Regression
+  - Naive Bayes
+
+- 📊 **Evaluation Metrics**
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+
+- 💻 **Interactive Web Interface** built using Streamlit
+
+- 🗂️ **Modular Project Structure** for easy understanding and reproducibility
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Python 3.x**  
-- **Pandas** – data handling  
-- **Scikit-learn** – model training & evaluation  
-- **NLTK** – text preprocessing  
-- **Streamlit** – interactive demo  
-- **Joblib** – saving and loading trained models  
-- **Jupyter Notebook** – analysis and exploration  
+
+- **Python 3.x**
+- **Pandas** – data handling
+- **Scikit-learn** – machine learning models
+- **NLTK** – text preprocessing
+- **Streamlit** – web interface
+- **Joblib** – model serialization
+- **Jupyter Notebook** – experimentation and analysis
 
 ---
 
